@@ -7,7 +7,12 @@ public class Circulo extends FiguraGeometrica_ssr {
 	public Circulo(double r, String tipoFigura) {
 		super(tipoFigura);
 		radio = r;
+			if (r<0) {
+						r=r*(-1);
+					}
 	}
+	
+	
 
 	@Override
 	public double area() {
