@@ -1,5 +1,5 @@
 
-public class Rectangulo extends FiguraGeometrica {
+public class Rectangulo extends FiguraGeometrica_ssr {
 	private double l1;
 	private double l2;
 	
